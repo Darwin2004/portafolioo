@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" id="filecss" >
+
+
+</head>
+<body>
+
+  <div class="tema-color">
+    <button class="open-panel" onclick="activarpanel()"> Colores </button>
+      <div class="cont-colores">
+        <button onclick="golden()" > 1</button>
+        <button onclick="red()"> 2</button>
+        <button onclick="principal()"> 3</button>
+      </div>
+   
+  </div>
+
+
+
+
+   <header>
+    <nav class="navbar navbar-expand-lg bg-port nav-prueba">
+        <div class="container justify-content-end"> 
+        
+          <a class="navbar-logo" href="#"><img src="medios/Logo.svg" alt="Logo"></a> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#hero">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#acercademi">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resumen">Resumen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portafolio">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="hero">
+        <h1>DARWIN <br> GONZALEZ </h1> 
+        
+        <p>DESAROLLADOR FULL STACK</p>
+      </div>
+      
+   </header>
+
+
+   <main>
+    <section id="acercademi">
+      <div class="container">
+        <div class="row">
+          <article class="col-lg-6">
+            <div class="card-sobremi" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+              <p>Soy una persona responsable, dinámica, con deseos de superación basadas en el logro de 
+                objetivos, aprendo con rapidez y me intereso por cumplir de manera adecuada 
+                instrucciones en conjunto con el trabajo en equipo. Pongo a disposición de mi actitud, mi puntualidad, mi honestidad y responsabilidad en las actividades que realizo.
+                
+            </div>
+          </article>
+          <article class="col-lg-6">
+            <div class="card-sobremi" data-aos="zoom-out-left">
+             <img src="medios/Imagendarwin.png" alt="foto"> 
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="resumen">
+      <div class="container">
+        <div class="row">
+          <article class="col-lg-6">
+            <div class="card-resumen">
+              <h2 id="est" data-aos="zoom-in-left" data-aos-offset="700">Estudios</h2>
+
+              <div class="cont-estud-info" >
+                <p id="uno">Bachillerato</p>
+              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                <div class="progress-bar bg-info text-dark" style="width: 100%">100%</div>
+              </div>
+              </div>
+              
+              <div class="cont-bach-info">
+                <p id="dos">Sena</p>
+              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 40%" >
+                <div class="progress-bar bg-info text-dark" style="width: 75%">75%</div>
+              </div>
+              </div>
+              
+              <div class="cont-uni">
+                <p id="tres">Universidad</p>
+              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                <div class="progress-bar bg-info text-dark" style="width: 10%">10%</div>
+              </div>
+              </div>
+            </div>
+              
+         </article>
+         <article class="col-lg-6">
+          <div class="card-resumen">
+            <h2 id="hab" data-aos="zoom-in-left" data-aos-offset="700" >Habilidades</h2>
+
+            <div class="cont-tol-info" >
+              <p id="cuatro">Tolerancia</p>
+              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 40%" >
+                <div class="progress-bar bg-info text-dark" style="width: 80%">80%</div>
+              </div>
+            </div>
+            
+            <div class="cont-pun-info">
+              <p id="cinco">Puntualidad</p>
+              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 40%" >
+                <div class="progress-bar bg-info text-dark" style="width: 90%">90%</div>
+              </div> 
+            </div>
+            
+
+            <div class="cont-resp-info">
+              <p id="seis">Responsabilidad</p>  
+              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 40%" >
+                <div class="progress-bar bg-info text-dark" style="width: 65%">65%</div>
+              </div> 
+            </div>
+
+            <div class="cont-trb-info">
+              <p id="siete">Trabajo En Equipo</p>   
+              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 40%" >
+                <div class="progress-bar bg-info text-dark" style="width: 70%">70%</div>
+              </div> 
+            </div>
+           
+            <div class="cont-hon-info">
+              <p id="ocho">Honestidad</p> 
+              <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 40%" >
+                <div class="progress-bar bg-info text-dark" style="width: 95%">95%</div>
+              </div> 
+            </div>
+            
+          
+           </div>
+         </article>
+       </div>
+     </div>
+   </section>
+
+   <section id="portafolio">
+    <div class="container">
+      <div class="row">
+        <article class="col-lg-4">
+          <div class="card-portafolio" data-aos="zoom-out-right" data-aos-offset="500">
+         
+            <h2 class="pro">Proyectos</h2>
+            <h2 class="exp">Experiencia</h2>
+            <h2 class="per">Perfil Profecional</h2>
+            
+         </div>
+       </article>
+       <article class="col-lg-8">
+        <div class="card-portafolio" data-aos="zoom-out-right" data-aos-offset="500">
+         <p id="tex1">En este momento estoy en el procceso de realizar mi primer proyecto que se basa en una necesidad en la cual trabajare para conocer bien todos los parametros y asi darle la mejor solucion posible. </p>
+         <div class="detalle"></div>
+         <p id="tex2">Lorem ipsum dolor sit amet consectetur adipiscing elit varius inceptos, ridiculus mi phasellus urna quis ad hendrerit proin, gravida aliquet dui feugiat ultricies venenatis placerat ligula.</p>
+         <div class="detalle"></div>
+         <p id="tex3">Los Tecnólogos en Análisis y Desarrollo de Software pueden desempeñar sus conocimientos en empresas y organizaciones dedicadas al desarrollo de aplicaciones informáticas, así como en empresas que requieran profesionales para el diseño y desarrollo de programas, soporte técnico, mantenimiento de sistemas, entre otros.</p>
+       </article>
+     </div>
+   </div>
+ </section>
+   
+
+
+  </main>
+
+
+
+   <footer>
+
+    <section id="contacto">
+      <div class="container">
+        <div class="row">
+          <article class="col-lg-6">
+            <div class="card-contacto">
+              <div class="cont-tel-info">
+                <img class="tel" src="medios/llamada.png" alt="telefono">
+                <div class="num">
+                  <p>3142948291</p>
+                </div>
+              </div>
+
+              <div class="cont-ubi-info">
+                <img class="ubi" src="medios/marcador-de-posicion.png" alt="ubicacion">
+              <div class="dire">
+                <p>Calle 49 D Bis # 5 R 31 Sur </p>
+              </div>
+              </div>
+              
+              <div class="cont-email-info">
+                <img class="email" src="medios/gmail.png" alt="email">
+              <div class="ema">
+                <p>darwingonzales@gmail.com</p>
+              </div>
+              </div>
+
+            </div>
+          </article>
+
+
+    
+
+
+         <article class="col-lg-6">
+          <div class="card-contacto">
+            <div class="cont-what-info">
+
+              <a   href="https://wa.me/qr/RQTJKIRS66YFJ1" target="_blank" ><img class="what" src="medios/whatsapp.png" alt="whatsapp"></a>
+              <a  href="https://www.facebook.com/profile.php?id=100009190772543&mibextid=ZbWKwL" target="_blank" ><img class="fac" src="medios/facebook.png" alt="facebook"></a>
+              <a  href="https://github.com/Darwin2004" target="_blank" ><img class="git" src="medios/social.png" alt="github"></a>
+              <a  href="https://instagram.com/darwin_24u?igshid=ZGUzMzM3NWJiOQ==" target="_blank" ><img class="inst" src="medios/instagram.png" alt="instagram"></a>
+              
+               
+              
+            </div>         
+
+    
+   </footer>
+
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
